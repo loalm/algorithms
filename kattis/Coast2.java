@@ -9,8 +9,8 @@ public class Coast2 {
 
     int y = reader.nextInt();
     int x = reader.nextInt();
-    coast = new Boolean[y][x];
-    wasHere = new boolean[y][x];
+
+    boolean[][] coast = new boolean[y][x];
 
     for (int i = 0; i < y; i++) {
       String row = reader.next();
@@ -18,6 +18,17 @@ public class Coast2 {
         coast[i][j] = Integer.parseInt(""+row.charAt(j)) != 0;
       }
     }
+
+
+    for (int i = 0; i < y; i++) {
+      for(int j = 0; j < x; j++) {
+        if (coast[i][j] = true) {
+          
+        }
+      }
+    }
+
     Coast c = new Coast();
+
   }
 }
