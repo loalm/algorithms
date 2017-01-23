@@ -1,3 +1,4 @@
+//https://open.kattis.com/problems/collatz
 import java.util.*;
 
 public class Collatz {
