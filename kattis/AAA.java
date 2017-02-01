@@ -7,8 +7,6 @@ public class AAA {
 
     String input = reader.nextLine();
 
-      int[] a = new int[2];
-      System.out.print(a[-1]);
   }
 
 
